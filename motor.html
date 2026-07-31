@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motor do Chevette</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #dcdcdc; /* Fundo cinza claro igual ao da imagem */
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 30px 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Seção dos botões / tags superiores */
+    .tags-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      width: 100%;
+    }
+
+    .tag {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 1.6rem;
+      padding: 4px 14px;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .tag-red {
+      background-color: #ff0000;
+      color: #000000;
+    }
+
+    .tag-green {
+      background-color: #00ff00;
+      color: #000000;
+    }
+
+    /* Seção de textos */
+    .content-text {
+      width: 100%;
+      color: #000000;
+      font-size: 1.05rem;
+      line-height: 1.35;
+      text-align: left;
+    }
+
+    .content-text p {
+      margin-bottom: 22px;
+      font-weight: 500;
+    }
+
+    .bold-text {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <div class="tags-container">
+      <div class="row">
+        <span class="tag tag-red">Surgiu</span>
+      </div>
+      <div class="row" style="justify-content: space-between; padding: 0 10px;">
+        <span class="tag tag-red">Tração</span>
+        <span class="tag tag-red">Diversidade</span>
+      </div>
+      <div class="row" style="gap: 20px;">
+        <span class="tag tag-red">Tubarão</span>
+        <span class="tag tag-green">Motor</span>
+      </div>
+    </div>
+
+    <div class="content-text">
+      <p>
+        <span class="bold-text">O motor do Chevette é a lendária linha OHC (comando de válvulas no cabeçote) desenvolvida pela Opel. Conhecido pela robustez, tração traseira e arquitetura longitudinal, ele equipou o modelo durante toda a sua trajetória no Brasil.</span>
+      </p>
+
+      <p>
+        <span class="bold-text">Versões 1.4: Presente nos primeiros anos, gerava cerca de 69 cavalos, oferecendo uma condução valente e confiável para a época.</span>
+      </p>
+
+      <p>
+        <span class="bold-text">Versões 1.6 e 1.6/S: Substituíram o motor 1.4. A versão 1.6/S, com dupla carburação e taxa de compressão mais alta, chegava a entregar 80 cavalos, conferindo ao carro um desempenho ágil</span>
+      </p>
+    </div>
+
+  </div>
+
+</body>
+</html>
